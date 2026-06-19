@@ -50,7 +50,7 @@ This is a Windows shell customization tool, so only use it if you are comfortabl
 
 Project/download:
 
-`<GitHub release URL here>`
+`https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest`
 
 ## Windhawk-Oriented Post
 
@@ -71,7 +71,7 @@ The app includes:
 
 Download/source:
 
-`<GitHub release URL here>`
+`https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest`
 
 If this is not appropriate for this space, feel free to remove it. I am posting because it is free, source-included, and directly related to the tray/grid behavior people have been discussing.
 
@@ -85,7 +85,7 @@ This is a shell customization tool, so it is for people who are comfortable with
 
 It is free and source-included. If this kind of post is not allowed here, feel free to remove it.
 
-`<GitHub release URL here>`
+`https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest`
 
 ## Microsoft Q&A Style Answer
 
@@ -95,7 +95,7 @@ Systray Wrap Doubler makes Windows 11 system-tray/notification-area icons use a 
 
 Because this changes live Explorer/taskbar layout behavior, do not use it on managed/work machines unless your organization allows this kind of utility.
 
-`<GitHub release URL here>`
+`https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest`
 
 ## Super User Style Disclosure
 
@@ -105,4 +105,4 @@ For Windows 11, the old drag-to-resize/taskbar-row behavior is not available in 
 
 It is not a registry-only tweak. It uses an Explorer/XAML hook and includes Revert/Uninstall paths. Source code is included.
 
-`<GitHub release URL here>`
+`https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest`

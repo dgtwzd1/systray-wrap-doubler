@@ -4,6 +4,14 @@ Systray Wrap Doubler gives Windows 11 notification-area/system-tray icons a comp
 
 It exists for people who keep many tray icons visible and do not want Windows to shove them into the overflow arrow or let the tray eat half the taskbar. The goal is simple: use the vertical space already taken by the clock/date area and let tray icons wrap into two usable rows.
 
+## Download
+
+Latest release:
+
+```text
+https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest
+```
+
 ## What It Does
 
 - Applies a two-row Windows 11 system-tray icon layout.

@@ -106,3 +106,5 @@ This project follows a simple builder rule: useful tools should be clear, honest
 Systray Wrap Doubler is free in this release, source-included, and built without dark patterns. If someone wants to improve it, fork it, or adapt the approach into another open-source tool such as a Windhawk mod, take the torch.
 
 See [docs/project-ethos.md](docs/project-ethos.md).
+
+For transparent posting/discovery language, see [docs/discovery-kit.md](docs/discovery-kit.md).

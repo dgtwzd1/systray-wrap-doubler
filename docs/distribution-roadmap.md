@@ -90,6 +90,8 @@ Be respectful and clear:
 - Mention Windows version support honestly after testing.
 - Invite people to inspect the source included in the install folder.
 
+Use `docs/discovery-kit.md` for trust wording, self-answer format, search titles, and platform-specific posture.
+
 ## Short Public Description
 
 Systray Wrap Doubler is a small Windows 11 utility that makes system-tray icons use a compact two-row layout. It is for people who keep many tray icons visible and do not want Windows to hide them behind the overflow arrow or let the tray consume the taskbar. The installer includes the app, native hook, documentation, and full source code.

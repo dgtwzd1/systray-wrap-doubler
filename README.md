@@ -12,6 +12,29 @@ Latest release:
 https://github.com/dgtwzd1/systray-wrap-doubler/releases/latest
 ```
 
+## Download Trust Notice
+
+Systray Wrap Doubler is a new, independently published open-source Windows utility. This release may not be digitally signed with an established publisher certificate, so Microsoft Defender SmartScreen or a browser may identify the installer as an unrecognized app.
+
+That warning is expected for many new or unsigned Windows downloads, but it should still be taken seriously. Only download Systray Wrap Doubler from the official GitHub repository, review the source code if you want to verify what it does, and run it only if you personally trust the project and understand that it modifies live Windows Explorer taskbar UI state.
+
+The full source code is available in this repository and is also included in the installed `source` folder for review, auditing, forking, or rebuilding. If you are not comfortable with an unsigned Windows shell customization utility, do not install it.
+
+## Where To Review The Source Code
+
+The source is not hidden behind the installer. It is available in two places:
+
+- In this GitHub repository under `src`: [review the source code here](https://github.com/dgtwzd1/systray-wrap-doubler/tree/main/src)
+- After install, under `C:\Program Files\Systray Wrap Doubler\source` unless you chose a different install folder
+
+Useful starting points:
+
+- `src\SystrayWrapDoubler.App` contains the tray app, menu commands, apply/revert logic, and recovery behavior.
+- `src\TrayHook.Native\TrayHook.Native.cpp` contains the native Explorer/XAML layout hook that changes the live tray layout.
+- `src\SystrayWrapDoubler.Installer` contains the installer and payload extraction code.
+- `src\SystrayWrapDoubler.Uninstaller` contains the uninstall and cleanup path.
+- `scripts\package.ps1` contains the release packaging script and shows exactly what is bundled.
+
 ## What It Does
 
 - Applies a two-row Windows 11 system-tray icon layout.
@@ -96,6 +119,8 @@ The app is not affiliated with Microsoft. It was built because Windows 11 does n
 ## Open Source
 
 This project was made by Al with help from ChatGPT and Codex. The installed folder includes the full source code so others can learn from it, improve it, fork it, or take it further.
+
+If you want to audit the program before running it, start with the `src` folder in this repository or the installed `source` folder. The important runtime pieces are listed in "Where To Review The Source Code" above.
 
 If you share improvements and want to give a shout-out, that would be appreciated, but the important part is that people who need this can find it.
 

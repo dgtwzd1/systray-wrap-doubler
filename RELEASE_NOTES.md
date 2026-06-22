@@ -16,6 +16,20 @@ It is meant for users who keep many tray icons visible and want the tray to use 
 - README and documentation
 - full source code in the install folder
 
+## Source Code Location
+
+The source code is included for review. In the GitHub repository, start with `src`. After installation, the same source bundle is copied to the installed `source` folder, usually:
+
+```text
+https://github.com/dgtwzd1/systray-wrap-doubler/tree/main/src
+```
+
+```text
+C:\Program Files\Systray Wrap Doubler\source
+```
+
+The main runtime code is in `src\SystrayWrapDoubler.App`, the native Explorer/XAML hook is in `src\TrayHook.Native\TrayHook.Native.cpp`, and the packaging script is `scripts\package.ps1`.
+
 ## Main Features
 
 - Apply two-row tray layout.
@@ -29,6 +43,8 @@ It is meant for users who keep many tray icons visible and want the tray to use 
 ## Important Notes
 
 This is a Windows shell customization tool. It changes live Explorer XAML layout state and per-user notification icon visibility settings. Use it only if you are comfortable with Windows customization utilities.
+
+This is a new, independently published open-source release and may not be digitally signed with an established publisher certificate. Microsoft Defender SmartScreen or a browser may identify the installer as unrecognized. Only download it from the official GitHub repository, review the included source code if desired, and run it only if you personally trust the project.
 
 The app is not affiliated with Microsoft.
 
